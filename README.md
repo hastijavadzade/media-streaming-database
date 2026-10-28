@@ -22,15 +22,15 @@ This project focuses on the design and implementation of a relational database f
 
 ## Project Structure
 
-- `sql/01_create_schema.sql`: Creates the database tables and relationships.
-- `sql/02_insert_sample_data.sql`: Inserts sample records into the tables.
+- `sql/MediaStreamingService.sql`: Creates the database tables and relationships.
+- `sql/MediaStreamingService_data.sql`: Inserts sample records into the tables.
 - `docs/`: Project report and database design diagrams, if included.
 
 ## How to Run
 
 1. Create a PostgreSQL database.
-2. Execute `sql/01_create_schema.sql` to create the tables.
-3. Execute `sql/02_insert_sample_data.sql` to insert the sample records.
+2. Execute `sql/MediaStreamingService.sql` to create the tables.
+3. Execute `sql/MediaStreamingService_data.sql` to insert the sample records.
 4. Run the SQL queries to explore the database.
 
 **Note:** The sample data is provided for testing and may not represent fully accurate real-world information.
