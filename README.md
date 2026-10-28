@@ -24,7 +24,6 @@ This project focuses on the design and implementation of a relational database f
 
 - `sql/MediaStreamingService.sql`: Creates the database tables and relationships.
 - `sql/MediaStreamingService_data.sql`: Inserts sample records into the tables.
-- `docs/`: Project report and database design diagrams, if included.
 
 ## How to Run
 
