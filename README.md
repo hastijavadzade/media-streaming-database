@@ -1,2 +1,37 @@
-# media-streaming-database
-A relational database project for a media streaming service using PostgreSQL and SQL.
+# Media Streaming Service Database
+
+## Overview
+
+This project focuses on the design and implementation of a relational database for a media streaming service. It models users, subscriptions, payments, movies, series, actors, directors, producers, ratings, comments, and watch lists.
+
+## Technologies
+
+- PostgreSQL
+- SQL
+- Relational database design
+- Entity-Relationship modeling
+- Database normalization
+
+## Database Features
+
+- Relational schema with 18 tables
+- Primary and foreign key constraints
+- Relationships between users, media, subscriptions, and production entities
+- Sample data for testing the database
+- SQL queries for retrieving payment information, watch lists, actor credits, and highly rated media
+
+## Project Structure
+
+- `sql/01_create_schema.sql`: Creates the database tables and relationships.
+- `sql/02_insert_sample_data.sql`: Inserts sample records into the tables.
+- `docs/`: Project report and database design diagrams, if included.
+
+## How to Run
+
+1. Create a PostgreSQL database.
+2. Execute `sql/01_create_schema.sql` to create the tables.
+3. Execute `sql/02_insert_sample_data.sql` to insert the sample records.
+4. Run the SQL queries to explore the database.
+
+**Note:** The sample data is provided for testing and may not represent fully accurate real-world information.
+
